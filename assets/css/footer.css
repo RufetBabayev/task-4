@@ -1,6 +1,9 @@
 footer {
   display: flex;
   background-color: var(--bgcolor-footer);
-  gap: 100px;
+  justify-content: space-around;
   padding: 55px 100px;
+}
+footer div {
+  width: 350px;
 }

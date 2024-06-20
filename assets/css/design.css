@@ -10,11 +10,11 @@
   h1 {
     font-size: 2rem;
   }
-  p {
-    width: 50%;
-    margin-left: 25%;
-    padding-top: 20px;
-  }
+}
+.design-info-text {
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 20px;
 }
 .design-boxs {
   display: flex;
@@ -23,13 +23,15 @@
 }
 
 .design-div {
+  display: flex;
   margin-top: 50px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   border-radius: 15px;
-  width: 500px;
+  width: 350px;
   height: 300px;
   background-color: var(--bgcolor-white);
-  align-content: end;
+  justify-content: center;
+  align-items: center;
   &:hover {
     transform: scale(1.1);
   }
@@ -42,9 +44,5 @@
     &:hover {
       background-color: var(--bgcolor-button);
     }
-  }
-
-  p {
-    margin-bottom: 50px;
   }
 }
